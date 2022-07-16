@@ -9,7 +9,7 @@
     console.log(url);
     // Bind to the submit event of our form
     $("#orderform").submit(function(event) {
-        $("#btntest").html('<img style="" src="img/loading.gif" /> المرجو الإنتظار');
+        $("#btntest").html('<img style="" src="img/loading.gif" /> S'il vous plaît, attendez ');
         // Abort any pending request
         if (request) {
             request.abort();
